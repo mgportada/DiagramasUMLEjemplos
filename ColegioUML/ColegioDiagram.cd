@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ColegioUML.Colegio">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEAAAYIAGCAgAQAAAJAAAAAAAAAIAAEAAAQAI=</HashCode>
+      <FileName>Colegio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="estudiantes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ColegioUML.Estudiante">
+    <Position X="9.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAEAQAIACgABAAAAACAAAAAAIAAAAIEQAAAgI=</HashCode>
+      <FileName>Estudiante.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="colegio" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

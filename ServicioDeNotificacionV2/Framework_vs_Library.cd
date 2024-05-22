@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Las LIBRERIAS dan clases que implementan interfaces.&#xD;&#xA;El código tiene el control y  llama a dichas interfaces (Abajo) cuando lo deesee.&#xD;&#xA;La librería se adapta a ti.">
+    <Position X="5.012" Y="1.154" Height="0.766" Width="4.773" />
+  </Comment>
+  <Comment CommentText="El código da clases que implementa las interfaces.&#xD;&#xA;El FRAMEWORK tiene el control y llama a dichas interfaces (arriba) cuando lo desee.&#xD;&#xA;Tu te adaptas al framework --&gt; IoC (Inversion Of Control)">
+    <Position X="4.87" Y="5.636" Height="0.877" Width="5.09" />
+  </Comment>
+  <Class Name="ServicioDeNotificacion.Repositories.CustomerRepository">
+    <Position X="9" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAA=</HashCode>
+      <FileName>Repositories\CustomerRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="1.429" />
+  </Class>
+  <Class Name="ServicioDeNotificacion.Services.CommunicationService">
+    <Position X="4.5" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\CommunicationService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicioDeNotificacion.Services.CustomerService">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Services\CustomerService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicioDeNotificacion.Services.EmailService">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\EmailService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ServicioDeNotificacion.Services.SMSService">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\SMSService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

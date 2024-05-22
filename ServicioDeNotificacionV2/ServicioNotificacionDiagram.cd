@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="INJECCIÓN DE DEPENDENCIAS&#xD;&#xA;- Permite reutilización de código&#xD;&#xA;- Evita Dependencia Cíclica">
+    <Position X="5.583" Y="0.865" Height="0.75" Width="2.347" />
+  </Comment>
+  <Class Name="ServicioDeNotificacion.Customer">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAQAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicioDeNotificacion.Repositories.CustomerRepository">
+    <Position X="9.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAA=</HashCode>
+      <FileName>Repositories\CustomerRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_connection" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.635" />
+  </Class>
+  <Class Name="ServicioDeNotificacion.Services.CommunicationService">
+    <Position X="2" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\CommunicationService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_sender" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ServicioDeNotificacion.Services.CustomerService">
+    <Position X="9.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Services\CustomerService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_repository" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ServicioDeNotificacion.Services.EmailService">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\EmailService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.444" />
+  </Class>
+  <Class Name="ServicioDeNotificacion.Services.SMSService">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\SMSService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.137" />
+  </Class>
+  <Class Name="ServicioDeNotificacion.Repositories.MySQLConnection">
+    <Position X="10.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\MySQLConnection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.669" />
+  </Class>
+  <Class Name="ServicioDeNotificacion.Repositories.OracleConnection">
+    <Position X="8.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\OracleConnection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.606" />
+  </Class>
+  <Interface Name="ServicioDeNotificacion.Repositories.IRepository">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Repositories\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ServicioDeNotificacion.Repositories.IDbConnection">
+    <Position X="9.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\IDbConnection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ServicioDeNotificacion.Services.ISender" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\ISender.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

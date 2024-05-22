@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Zoo.Animal">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAICAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Tortuga">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tortuga.cs</FileName>
+      <NewMemberFileName>Loro.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Nutria">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Nutria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.ErizoDeMar">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ErizoDeMar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Zoo.Tortugero">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Tortugero.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="tortugas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Zoo.Loro">
+    <Position X="14" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Loro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.CentroDeVisitantes">
+    <Position X="18.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAEAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>CentroDeVisitantes.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_recepcion" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_aseos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Zoo.Recepcion">
+    <Position X="17.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Recepcion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Aseo">
+    <Position X="20" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Aseo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Zoo.IComida">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IComida.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

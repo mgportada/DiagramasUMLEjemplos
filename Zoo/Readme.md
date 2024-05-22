@@ -30,6 +30,7 @@ classDiagram
         + void destruirAseo()
     }
     class IComestible{
+        <<interface>>
         + int AporteCalorico()
     }
     Animal <|-- Tortuga
